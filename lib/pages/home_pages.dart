@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whats_app_clone/widgets/ChatWidgets.dart';
+import 'package:whats_app_clone/widgets/status_widget.dart';
 
 class HomePages extends StatelessWidget {
   const HomePages({super.key});
@@ -90,7 +91,7 @@ class HomePages extends StatelessWidget {
           Flexible(flex: 1,child:TabBarView(children: [
             Container(color: Colors.amber,),
             Chatwidgets(),
-            Container(color: Colors.green,),
+           StatusWidget(),
             Container(color: Colors.cyan,)
           ]) 
           )
